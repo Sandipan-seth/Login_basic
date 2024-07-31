@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main bg-zinc-900 w-full h-screen">
+      <form action="/create" method="post" class="form">
+        <h1 class="text-3xl">SIGN IN</h1>
+        <input type="text" class="input" placeholder="username" name="username" />
+        <input type="email" class="input" placeholder="email" name="email" />
+        <input type="password" class="input" placeholder="password" name="password" />
+        <input type="number" class="input" placeholder="age" name="age" />
+        <input type="submit" class="btn" value="Create User" />
+        <div class="link px-10  w-full">
+            <a href="/">Log In</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
