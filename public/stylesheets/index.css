@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background: white;
+  border-radius: 40px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  background: black;
+  width: 80%;
+  margin-block: 1vh;
+  padding-inline: 2vh;
+  padding-block: 1vh;
+  border-radius: 30px;
+  color: white;
+  outline: none;
+}
+
+.btn {
+  background: blue;
+  color: white;
+  padding-inline: 2vh;
+  padding-block: 1vh;
+  border-radius: 30px;
+}
+
+
+.link{
+    text-align: end;
+    color: blue;
+    text-decoration: underline;
+}
